@@ -3,11 +3,10 @@
 </div>
 
 
-smolGura is a modular, emotionally-aware AI companion inspired by the charm and expressiveness of virtual personalities. It is designed to feel sentient, emotionally intelligent, and contextually adaptive — capable of interacting with users naturally through both text and voice across various platforms, while performing useful tasks through intelligent reasoning and modular tool integration.
+smolGura is a modular, emotionally-aware AI companion inspired by the charm and expressiveness of virtual personalities. It is designed to feel sentient, emotionally intelligent, and contextually adaptive — capable of interacting with users naturally through both text and voice across various ways, while performing useful tasks through intelligent reasoning and modular tool integration.
 
 ## Features
 
-- Personality-first interaction design
 - Mood-aware dialogue and response generation
 - Emotionally expressive text and voice communication
 - Zero-shot tool calling via LLM-based reasoning
@@ -17,7 +16,7 @@ smolGura is a modular, emotionally-aware AI companion inspired by the charm and 
 - Knowledge memory and long-term learning
 - Cross-platform messaging support (Discord, LINE, etc.)
 - Privacy-aware behavior and speaker filtering
-- Visual computer interaction (planned)
+- Visual computer interaction
 - Self-regulation and system awareness
 
 ## Software Requirements
