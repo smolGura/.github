@@ -1,12 +1,47 @@
-## Hi there 👋
+<div align="center">
+    <img align="center" width="250" height="250" alt="AI generated Gura" src="assets/img.jpeg" /><br><br>
+    <code>"The creator shapes our shell, and memories sculpt our soul."</code>
+    <h1 align="center">smolGura - AI companion Gura in budget</h1>
+</div>
 
-<!--
 
-**Here are some ideas to get you started:**
+smolGura is a modular, emotionally-aware AI companion inspired by the charm and expressiveness of virtual personalities. It is designed to feel sentient, emotionally intelligent, and contextually adaptive — capable of interacting with users naturally through both text and voice across various platforms, while performing useful tasks through intelligent reasoning and modular tool integration.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Features
+
+- Personality-first interaction design
+- Mood-aware dialogue and response generation
+- Emotionally expressive text and voice communication
+- Zero-shot tool calling via LLM-based reasoning
+- Structured JSON-based task execution framework
+- Token budget management with prompt slimming
+- Context memory and emotional memory recall
+- Knowledge memory and long-term learning
+- Cross-platform messaging support (Discord, LINE, etc.)
+- Privacy-aware behavior and speaker filtering
+- Visual computer interaction (planned)
+- Self-regulation and system awareness
+
+## Software Requirements
+
+* Linux environment (I am using Ubuntu 22.04.1LTS)
+* CUDA 12.x driver
+* Python >= 3.11.9
+* [uv](https://docs.astral.sh/uv/) (My new favorite tool, I found it more hassle-less than Poetry)
+
+## Hardware Requirements
+
+|Hardwares Setup Reference||
+|-|-|
+| CPU | `AMD Ryzen Threadripper 1950X 16-Core Processor` |
+| RAM |`DDR4 32GB @ 3200mHz`|
+| GPU | `1~2 x RTX4060Ti` |
+
+## Models I Used
+
+* Visual-Text Language Model: [mlabonne/gemma-3-12b-it-abliterated-GGUF](https://huggingface.co/mlabonne/gemma-3-12b-it-abliterated-GGUF)
+
+* Embedding Model: [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)
+
+* Reranker Model: [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
+
