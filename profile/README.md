@@ -1,5 +1,4 @@
 <div align="center">
-    <img align="center" width="250" height="250" alt="AI generated Gura" src="assets/img.jpeg" /><br><br>
     <h1 align="center">smolGura - AI companion Gura in budget</h1>
 </div>
 
