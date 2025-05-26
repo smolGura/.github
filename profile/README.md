@@ -19,13 +19,6 @@ smolGura is a modular, emotionally-aware AI companion inspired by the charm and 
 - Visual computer interaction
 - Self-regulation and system awareness
 
-## Software Requirements
-
-* Linux environment (I am using Ubuntu 22.04.1LTS)
-* CUDA 12.x driver
-* Python >= 3.11.9
-* [uv](https://docs.astral.sh/uv/) (My new favorite tool, I found it more hassle-less than Poetry)
-
 ## Hardware Requirements
 
 |Hardwares Setup Reference||
@@ -33,12 +26,4 @@ smolGura is a modular, emotionally-aware AI companion inspired by the charm and 
 | CPU | `AMD Ryzen Threadripper 1950X 16-Core Processor` |
 | RAM |`DDR4 32GB @ 3200mHz`|
 | GPU | `1~2 x RTX4060Ti` |
-
-## Models I Used
-
-* Visual-Text Language Model: [mlabonne/gemma-3-12b-it-abliterated-GGUF](https://huggingface.co/mlabonne/gemma-3-12b-it-abliterated-GGUF)
-
-* Embedding Model: [BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)
-
-* Reranker Model: [BAAI/bge-reranker-v2-m3](https://huggingface.co/BAAI/bge-reranker-v2-m3)
 
