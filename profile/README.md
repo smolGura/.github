@@ -13,13 +13,13 @@ Under the hood, smolGura runs on GuraOS -- a microkernel AI operating system
 with a cognitive stack for goal decomposition. TinyGura sub-agents are spawned on
 demand from GuraVerse for parallel task handling. Kernel modules and drivers
 are hot-pluggable, connecting Gura to terminals, Discord, Android phones,
-PCs, and a web dashboard.
+PCs, and a web desktop.
 
 Built using [Claude Code](https://claude.ai/claude-code).
 
 ## Capabilities
 
-- **Modular** -- kernel modules (LLM, ASR, TTS, vision) and drivers (Terminal, Discord, phone, PC, dashboard) are hot-pluggable
+- **Modular** -- kernel modules (LLM, ASR, TTS, vision) and drivers (Terminal, Discord, phone, PC, desktop) are hot-pluggable
 - **Agent spawning** -- GuraVerse registry for spawning TinyGura sub-agents with shared memory
 - **Memory** -- automatically memorizes facts about you and recalls them in context
 - **Skill learning** -- picks up reusable skills over time, gets better the more you use it
@@ -27,7 +27,7 @@ Built using [Claude Code](https://claude.ai/claude-code).
 - **Voice chat** -- push-to-talk conversation with voice cloning
 - **Vision** -- visual input with image memory; vision kernel modules can add or enhance visual capabilities for any LLM
 - **Web search** -- API-based search and page extraction, or browse like a human via computer use / phone use
-- **Dashboard** -- React web UI with real-time monitoring, chat, memory browser, GPU status
+- **Desktop** -- React web UI with real-time monitoring, chat, memory browser, GPU status
 
 ## Architecture
 

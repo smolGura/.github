@@ -7,9 +7,9 @@
     </style>
   </defs>
 
-  <!-- Dashboard (right side, spanning Services to KMods/Drivers) -->
+  <!-- Desktop (right side, spanning Services to KMods/Drivers) -->
   <rect x="470" y="12" width="70" height="242" rx="14" ry="14" fill="#e8ecf4" stroke="#b0bcd4"/>
-  <text x="505" y="133" class="pill-text" fill="#3d4f6e" writing-mode="tb" font-size="12" font-weight="600">Dashboard</text>
+  <text x="505" y="133" class="pill-text" fill="#3d4f6e" writing-mode="tb" font-size="12" font-weight="600">Desktop</text>
 
   <!-- Agents  y=12 -->
   <text x="16" y="28" class="row-label" fill="#7b5ea7">Agents</text>
